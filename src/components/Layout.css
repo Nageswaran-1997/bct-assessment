@@ -1,0 +1,50 @@
+.container {
+    width: 1024px;
+    height: 100vh;
+    display: flex;
+}
+.container nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 100vh;
+    background-color: #ffffff;
+}
+.container nav ul{
+    margin-top: 40px;
+}
+.container nav ul li{
+    list-style: none;
+}
+.container nav a {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    color: #686767;
+    text-decoration: none;
+}
+.container nav a:hover {
+    background-color: #a09e9e;
+    color: #ffffff;
+    transition: all .2s;
+}
+.container nav a svg {
+    margin-right: 15px;
+}
+nav ul li .active {
+    font-weight: bold;
+    color: #1976d2;
+}
+nav ul li .active svg {
+    color: #1976d2;
+}
+main {
+    flex-grow: 1;
+    padding: 1rem;
+    position: absolute;
+    top: 0;
+    left: 300px;
+    width: 80%;
+}
+  

@@ -1,0 +1,20 @@
+.rating {
+    background-color: green;
+    padding: 2px 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    color: #ffffff;
+    max-width: 50px;
+    height: 30px;
+}
+.rating span {
+    padding: 3px 2px 0 3px;
+}
+.css-1ex1afd-MuiTableCell-root {
+    text-transform: capitalize;
+}
+.css-1ygcj2i-MuiTableCell-root {
+    font-weight: 600 !important;
+}
